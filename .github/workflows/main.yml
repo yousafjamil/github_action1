@@ -1,11 +1,12 @@
-name:github1
-on:push
+name: github1
+on: push
 jobs:
- my_jobs:
-  run-on:ubantu-latest
-  steps:
-   name:1
-    run:echo '1111'
+  my_jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1
+        run: echo '1111'
+
 
 
 
