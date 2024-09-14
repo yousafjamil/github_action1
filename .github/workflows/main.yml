@@ -1,0 +1,15 @@
+name:github1
+on:push
+jobs:
+ my_jobs:
+  run-on:ubantu-latest
+  steps:
+   name:1
+    run:echo '1111'
+
+
+
+       
+    
+     
+    
